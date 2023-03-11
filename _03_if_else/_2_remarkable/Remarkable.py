@@ -13,4 +13,15 @@ if __name__ == '__main__':
 
     input = simpledialog.askstring(title='t', prompt='f')
 
-    if input == 'pizza'
+    if input == 'pizza':
+        messagebox.showinfo(message=pizza)
+    elif input == 'water':
+        messagebox.showinfo(message=water)
+    elif input == 'cat':
+        messagebox.showinfo(message=cat)
+    elif input == 'dog':
+        messagebox.showinfo(message=dog)
+    elif input == 'fish':
+        messagebox.showinfo(message=fish)
+    elif input == 'parrot':
+        messagebox.showinfo(message=parrot)
